@@ -80,7 +80,8 @@ nav ul{
         min-width: 100%;
     }
     .hero-image img{
-        margin-top: 100px;
+        margin-top: 72px;
+        max-height: 100vh;
         min-width: 100%;
     }
 }
