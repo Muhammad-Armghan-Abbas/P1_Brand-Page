@@ -1,6 +1,6 @@
 function Navigation() {
   return (
-        <nav className="container">
+        <nav className="nav-container">
         <img src="/images/brand_logo.png" alt="logo" />
         <ul>
           <li href="#">Menu</li>
@@ -8,7 +8,7 @@ function Navigation() {
           <li href="#">About</li>
           <li href="#">Contacts</li>
         </ul>
-        <button>Login</button>
+        <button id="login">Login</button>
         </nav>
   )
 }

@@ -3,9 +3,6 @@
     --red:#d01c28;
     --gray:#2e2e2e;
 }
-*{
-    margin: 0;
-}
 body{
     font-family: "Poppins",sans-serif;
     margin: 0 5%;
@@ -72,4 +69,42 @@ nav ul{
 .brand-icons{
     display: flex;
     gap: 16px;
+}
+@media (max-width:700px){
+    .hero-image img{
+        max-width: 100%;
+    }
+}
+@media (min-width:700px){
+    .hero-image{
+        min-width: 100%;
+    }
+    .hero-image img{
+        min-width: 100%;
+    }
+}
+@media(max-width:1080px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        right: 0px;
+        padding: 0;
+        justify-content: center;
+        margin: auto;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero h1{
+        font-size: 70px;
+        margin: 70px 0 0 0;
+    }
+    .nav-container{
+        max-width: 80%;
+    }
+    #login{
+        position: absolute;
+        right: 20px;
+    }
 }
