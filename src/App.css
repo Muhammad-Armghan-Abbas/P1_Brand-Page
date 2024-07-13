@@ -79,10 +79,9 @@ nav ul{
 }
 @media (min-width:700px){
     .hero-image{
-        min-width: 65%;
+        min-width: 50%;
     }
     .hero-image img{
-        margin-top: 72px;
         max-height: 100vh;
         min-width: 100%;
     }
